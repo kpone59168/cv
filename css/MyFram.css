@@ -1,0 +1,55 @@
+/* 
+	/!\ Merci de ne pas Supprimer ce commentaire /!\
+
+	Nom : MyFram.css
+	Auteur : Laute Alexandre
+	Utilisations recommendée des framework suivants :
+		- w3.css
+		- Bootsrap
+
+	Constitution de la bibliothèque en cours...
+*/
+
+/* PANEL */
+.my-panel {border: 1px solid #000000;}
+.my-panel header {text-align: center;}
+.my-panel header h1,p {color: #FFFFFF;}
+.my-panel header h1 {background-color: #000000; font-size: 22px; font-weight: bold;}
+.my-panel header h1 span {float: left; font-size:15px; margin-top: 3px; margin-left: 3px;}
+.my-panel header p {background-color: #000000;}
+.my-panel > section {padding: 8px 8px;}
+.my-panel > section p,i {color: #000000; margin: 0;}
+	/* PANEL THEME */
+	.my-panel-blue-dark {border-color: #003F7F;}
+	.my-panel-blue-dark header h1 {background-color: #003F7F; margin: 0;}
+	.my-panel-blue-dark header p {background-color: #26537F; margin: 0;}
+
+/* GROUPS */
+.my-group-article > article:nth-child(n) {margin-top: 15px;}
+.my-group-article > article:last-child {margin-bottom: 15px;}
+.my-group-section > section:nth-child(n) {margin-top: 15px;}
+.my-group-section > section:last-child {margin-bottom: 15px;}
+
+/* BORDER */
+.my-border {border: 1px solid #000000;}
+.my-border-none {border: none;}
+	/* BORDER COLOR */
+	.my-border-color-blue-dark {border-color: #003F7F;}
+	/* BORDER SIZE */
+	.my-border-size-2 {border-width: 2px;}
+	.my-border-size-4 {border-width: 4px;}
+	.my-border-size-6 {border-width: 6px;}
+
+/* BACKGROUND COLOR */
+.my-blue-dark {background-color: #003F7F;}
+
+/* IMAGE */
+.my-img-profil {max-width: 128px;}
+.my-img-icon {max-width: 32px;}
+
+/* TEXT */
+.my-text-justif {text-align: justify;}
+
+/* BOOTSTRAP POPOVER */
+.popover {max-width:600px !important;}
+.popover img {width:100%;}
